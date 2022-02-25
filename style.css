@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    background: url(img/terapia_integrativas.png) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    
+}
+
+.box{
+    background: #eee;
+    padding: 4px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+.redes-sociais{
+    display: flex;
+}
