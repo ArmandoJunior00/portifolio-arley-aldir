@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 img{
@@ -20,10 +21,11 @@ body{
 }
 
 .box{
-    background: #eee;
+    background: #eeee;
     padding: 4px;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-    border-radius: 50px;
+    border-radius: 20px;
+    color: green;
 }
 
 li{
@@ -32,4 +34,9 @@ li{
 
 .redes-sociais{
     display: flex;
+    justify-content: center;
+}
+
+.redes-sociais li{
+    margin-right: 1rem;
 }
