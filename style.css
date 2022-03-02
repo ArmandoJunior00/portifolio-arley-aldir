@@ -17,7 +17,16 @@ body{
     align-items: center;
     justify-items: center;
     height: 100vh;
+    color: #aeaeae;
     
+}
+
+.title{
+    font-size: 36px;
+}
+
+.profile{
+    border-radius: 50%;
 }
 
 .box{
@@ -26,7 +35,9 @@ body{
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
     border-radius: 20px;
     color: green;
+    text-align: center;    
 }
+
 
 li{
     list-style: none;
