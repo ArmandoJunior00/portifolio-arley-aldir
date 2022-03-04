@@ -35,8 +35,12 @@ body{
     padding: 4px;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
     border-radius: 20px;
-    color: green;
+    color: #aeaeae;
     text-align: center;    
+}
+
+.profile{
+    margin-top: 6rem;
 }
 
 
@@ -66,4 +70,17 @@ li{
 
 .portfolio{
     max-width: 886px;
+    margin: 8rem 0;
+}
+
+.portfolio ul{
+    margin-top: 3rem;
+}
+
+.portfolio li{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+    gap: 1rem;
+    color: purple;
 }
