@@ -40,7 +40,7 @@ body{
 }
 
 .profile{
-    margin-top: 6rem;
+    margin-top: 0rem;
 }
 
 
@@ -83,4 +83,12 @@ li{
     text-align: left;
     gap: 1rem;
     color: purple;
+}
+.portfolio li +li{
+    margin-top: 2rem;
+}
+
+.portfolio h2{
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
