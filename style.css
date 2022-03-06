@@ -21,6 +21,10 @@ body{
     
 }
 
+.container{
+    padding: 0 16px;
+}
+
 .title{
     font-size: 36px;
 }
@@ -28,6 +32,13 @@ body{
 .profile-pic{
     border-radius: 50%;
     margin: 0 auto 2rem auto;
+}
+
+.profile{
+    max-width: 462px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 8rem;
 }
 
 .box{
@@ -39,7 +50,7 @@ body{
     text-align: center;    
 }
 
-.profile{
+.profile-teste{
     margin-top: 0rem;
 }
 
@@ -71,6 +82,7 @@ li{
 .portfolio{
     max-width: 886px;
     margin: 8rem 0;
+    box-sizing: border-box;
 }
 
 .portfolio ul{
@@ -88,7 +100,20 @@ li{
     margin-top: 2rem;
 }
 
+.portfolio img{
+    border-radius: 10px;
+}
+
 .portfolio h2{
     font-weight: bold;
     margin-bottom: 1rem;
+}
+
+.copyright{
+    font-size: 24px;
+    color: rgb(34, 30, 30);
+    text-shadow: 2px 2px 16px rgb(27, 27, 27);
+    font-weight: bold;
+    text-align: center;
+    margin: 50vh 0; 
 }
